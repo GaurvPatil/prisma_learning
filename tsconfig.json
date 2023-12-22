@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "es2017", // or higher
+      "module": "NodeNext", // "system", "node16", "nodenext"
+      "explainFiles": true,
+      "moduleResolution": "NodeNext",
+      "outDir": "dist"
+    },
+    "include": ["src/**/*"]
+  }

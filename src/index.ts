@@ -4,6 +4,7 @@ import { typeDefs } from "./graphQL/schema.js";
 import prisma from "./prisma/index.js";
 
 const resolvers = {
+  // hello 
   Query: {
     Users: async () => {
       return await prisma.user.findMany();
